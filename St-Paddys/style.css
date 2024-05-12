@@ -4,6 +4,9 @@ body, html {
     overflow: hidden;
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 body {
@@ -12,13 +15,18 @@ body {
 
 h1 {
     position: absolute;
-    top: 20px;
-    left: 30%;
+    top: 40%;
     font-family: "Irish Grover", system-ui;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 60px;
     font-style: normal;
     z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
 }
 
 canvas {
@@ -29,3 +37,4 @@ canvas {
     height: 100%;
     z-index: 0;
 }
+
