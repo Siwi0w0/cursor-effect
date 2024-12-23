@@ -11,6 +11,12 @@ Welcome to my cursor effect repository! This repository contains various cursor 
 - **Repository:** [Link to Repository](#)
 - **Languages/Technologies Used:** JavaScript, HTML, CSS
 
+### 2. X'mas Cursor
+
+- **Description:** An interactive cursor effect where Christmas icons follow the cursor's movement on the screen. Cursor trail will be generated and fade gradually.
+- **Repository:** [Link to Repository](#)
+- **Languages/Technologies Used:** JavaScript, HTML, CSS
+
 ## How to Use
 
 Each project in this repository comes with its own README file containing instructions on how to set up and use the cursor effect. Please refer to the individual project's README file for detailed information.
