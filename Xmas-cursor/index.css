@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+body{
+    cursor: url('assests/cursor.png'), auto;
+    background-color: brown;
+}
+
+h1{
+    color: white;
+    font-family: "Mountains of Christmas", serif;
+    font-size: 50px;
+}
+
+.tree-pic{
+    height: 600px;
+    /* width: 400px; */
+    padding-left: 15%;
+}
+
+.cursor{
+    position: fixed;
+    background-image: url('assests/1.png');
+    z-index: 1000;
+    user-select: none;
+    pointer-events: none;
+    transform: translate(40%, 40%);
+    width: 32px;
+    height: 32px;
+}
+
+.cursor-trail {
+    position: fixed;
+    background-image: url('assests/1.png');
+    background-size: contain;
+    opacity: 0.3;
+    z-index: 999;
+    pointer-events: none;
+    width: 32px;
+    height: 32px;
+    transform: translate(40%, 40%);
+}
